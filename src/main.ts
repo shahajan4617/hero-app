@@ -8,11 +8,7 @@ import { AppComponent } from './app/app.component';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule, AppComponent],
-  template: `
-    <h1>Hello from {{name}}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      Learn more about Angular 
-    </a>
+  template: `<app-app></app-app>
   `,
 })
 export class App {

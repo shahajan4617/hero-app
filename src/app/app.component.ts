@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  title: string = 'My App';
+
+  username: string = 'Shahajan Pathan';
+  mobile: string = '7057966948';
+  age: number = 21;
+
   constructor() {}
 
   ngOnInit() {}
