@@ -13,6 +13,8 @@ export class AppComponent implements OnInit {
   mobile: string = '7057966948';
   age: number = 21;
 
+  avatar: string='https://images.freeimages.com/images/previews/3c0/jellyfish-1507290.jpg'
+
   constructor() {}
 
   ngOnInit() {}
